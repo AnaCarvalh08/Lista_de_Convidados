@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Lista de Convidados</title>
+</head>
+
+<body>
+
+    <div id="principal">
+        <h1>Lista de Convidados</h1>
+        <label>Insira o nome do convidado: </label>
+        <br>
+        <input id="inputConvidado" type="text" placeholder="Digite o nome aqui">
+        <br>
+        <button onclick="enviar()">Enviar</button>
+        <br>
+        <br>
+        <button onclick="exibir()">Exibir</button>
+        <p id="pExibir"></p>
+        <br>
+        <br>
+        <button onclick="organizar()">Organizar</button>
+        <hr>
+        <h1>Pesquisar nomes</h1>
+        <input id="pesquisarInput" type="text" placeholder="Digite aqui o nome a pesquisar">
+        <br>
+        <button onclick="pesquisar()">Pesquisar</button>
+        <p id="resultadoPesquisa"></p>
+        <br>
+        <input id="InputExcluir" type="text" placeholder="Digite aqui o nome que deseja excluir">
+        <br>
+        <button onclick="excluir()">Excluir</button>
+        <p id="resultadoExclusao"></p>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
